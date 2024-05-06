@@ -1,0 +1,48 @@
+.gradientText {
+    background: linear-gradient(90deg, #3D8BFF 0%, #AB23FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+.gradientBg {
+    /* Rectangle 7 */
+
+/* position: absolute;
+width: 1920px;
+height: 970px;
+left: 1920px;
+top: 970px; */
+
+background: linear-gradient(174.64deg, #000000 4.29%, #3D8BFF 47.39%, #AB23FF 95.05%);
+mix-blend-mode: soft-light;
+transform: rotate(-180deg);
+
+}
+
+
+.card {
+background: rgba(19, 23, 29, 0.6);
+}
+
+.cardOverlay {
+position: absolute;
+left: 0;
+top: 0;
+width:100%;
+background: linear-gradient(174.64deg, #3D6FFF 4.29%, #9123FF 95.05%);
+mix-blend-mode: overlay;
+transform: rotate(-180deg);
+
+}
+
+.gradientBorder{
+    border-image-source:  linear-gradient(174.64deg, #3D6FFF 4.29%, #9123FF 95.05%);
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+    padding-top:2px;
+    padding-bottom:2px;
+    border-image-slice: 1;
+}
